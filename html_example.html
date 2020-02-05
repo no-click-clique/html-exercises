@@ -21,6 +21,19 @@
       </p>
     </div> <!-- end of .section-2 -->
   </div> <!-- end of .main -->
+  
+  <form action="/bricks" method="post">
+    <div>
+      Color: <input type="text" name="brick_color"/>
+    </div>
+    <div>
+      Brand: <input type="text" name="brick_brand" value=""/>
+    </div>
+    <input type="submit" name="" value="Create A Brick" />
+  </form>
+
+  <!-- params hash => {"brick_color" => "Red", "brick_brand" => "SF Masonry"} -->
+
 </body>
 </html>
 
